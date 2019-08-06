@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (8)" project="maven.cucumber_practice_5th_july99" tests="6" started="6" failures="0" errors="4" ignored="4">
+  <testsuite name="com.acc.cucumber_day1_practice.TestRunner" time="0.05">
+    <testsuite name="Feature: Login Action" time="0.05">
+      <testsuite name="Scenario: Successful Login with Valid Credentials" time="0.006" incomplete="true">
+        <error>java.lang.IllegalStateException: The driver executable does not exist: C:\IEDriverServer.exe&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:35)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:188)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:281)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:211)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)&#13;
+	at step_definition.Test_Steps.user_is_on_Home_Page(Test_Steps.java:22)&#13;
+	at ✽.Given User is on Home Page(Login_test.feature:4)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on Home Page" classname="Scenario: Successful Login with Valid Credentials" time="0.001">
+          <error>java.lang.IllegalStateException: The driver executable does not exist: C:\IEDriverServer.exe&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:35)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:188)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:281)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:211)&#13;
+	at org.openqa.selenium.ie.InternetExplorerDriver.&lt;init&gt;(InternetExplorerDriver.java:150)&#13;
+	at step_definition.Test_Steps.user_is_on_Home_Page(Test_Steps.java:22)&#13;
+	at ✽.Given User is on Home Page(Login_test.feature:4)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User Navigate to LogIn Page" classname="Scenario: Successful Login with Valid Credentials" time="0.001" ignored="true"/>
+        <testcase name="And User enters UserName and Password" classname="Scenario: Successful Login with Valid Credentials" time="0.001" ignored="true"/>
+        <testcase name="Then Message displayed Login Successfully" classname="Scenario: Successful Login with Valid Credentials" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Successful LogOut" time="0.0" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at step_definition.Test_Steps.user_LogOut_from_the_Application(Test_Steps.java:48)&#13;
+	at ✽.When User LogOut from the Application(Login_test.feature:10)&#13;
+&#13;
+</error>
+        <testcase name="When User LogOut from the Application" classname="Scenario: Successful LogOut" time="0.0">
+          <error>java.lang.NullPointerException&#13;
+	at step_definition.Test_Steps.user_LogOut_from_the_Application(Test_Steps.java:48)&#13;
+	at ✽.When User LogOut from the Application(Login_test.feature:10)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then Message displayed LogOut Successfully" classname="Scenario: Successful LogOut" time="0.014" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

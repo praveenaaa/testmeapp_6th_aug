@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28819" started-at="2018-04-13T06:48:46Z" finished-at="2018-04-13T06:49:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28819" started-at="2018-04-13T06:48:46Z" finished-at="2018-04-13T06:49:15Z">
+      <class name="cucumber_lateral_practice_test.SeleniumTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cucumber_lateral_practice_test.SeleniumTest@2b98378d]" name="beforeTest" is-config="true" duration-ms="7007" started-at="2018-04-13T06:48:46Z" finished-at="2018-04-13T06:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signup()[pri:1, instance:cucumber_lateral_practice_test.SeleniumTest@2b98378d]" name="signup" duration-ms="9659" started-at="2018-04-13T06:48:53Z" finished-at="2018-04-13T06:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:cucumber_lateral_practice_test.SeleniumTest@2b98378d]" name="login" duration-ms="2580" started-at="2018-04-13T06:49:03Z" finished-at="2018-04-13T06:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="cart()[pri:3, instance:cucumber_lateral_practice_test.SeleniumTest@2b98378d]" name="cart" duration-ms="9291" started-at="2018-04-13T06:49:05Z" finished-at="2018-04-13T06:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cucumber_lateral_practice_test.SeleniumTest@2b98378d]" name="afterTest" is-config="true" duration-ms="199" started-at="2018-04-13T06:49:15Z" finished-at="2018-04-13T06:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cucumber_lateral_practice_test.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

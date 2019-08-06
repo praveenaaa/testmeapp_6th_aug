@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (8)" project="maven.cucumber_practice_5th_july99" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.acc.cucumber_day1_practice.TestRunner" time="16.118">
+    <testsuite name="Feature: Login Action" time="16.118">
+      <testsuite name="Scenario: Successful Login with Valid Credentials" time="13.015">
+        <testcase name="Given User is on Home Page" classname="Scenario: Successful Login with Valid Credentials" time="9.257"/>
+        <testcase name="When User Navigate to LogIn Page" classname="Scenario: Successful Login with Valid Credentials" time="3.758"/>
+        <testcase name="And User enters UserName and Password" classname="Scenario: Successful Login with Valid Credentials" time="0.0"/>
+        <testcase name="Then Message displayed Login Successfully" classname="Scenario: Successful Login with Valid Credentials" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Successful LogOut" time="0.007">
+        <testcase name="When User LogOut from the Application" classname="Scenario: Successful LogOut" time="0.001"/>
+        <testcase name="Then Message displayed LogOut Successfully" classname="Scenario: Successful LogOut" time="0.006"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
